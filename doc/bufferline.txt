@@ -53,6 +53,11 @@ values):
 >
   let g:bufferline_fixed_index =  0 "always first
   let g:bufferline_fixed_index =  1 "always second (default)
+  let g:bufferline_fixed_index =  2 "always third (last when there are less
+    \ than 3 buffers)
+  ...
+  let g:bufferline_fixed_index = -2 "always second last (first when there are
+    \ only one buffer)
   let g:bufferline_fixed_index = -1 "always last
 <
 
